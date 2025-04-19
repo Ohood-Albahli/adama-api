@@ -3,7 +3,7 @@ flask-cors
 tensorflow==2.14.0
 keras==2.14.0
 pandas
-numpy
+numpy<2
 Pillow
 gunicorn
 scikit-learn
