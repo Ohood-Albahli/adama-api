@@ -1,7 +1,7 @@
 services:
   - type: web
-    name: adama-ai-api
+    name: adama-api
     env: python
+    buildCommand: ""
+    startCommand: "python server.py"
     plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn server:app
