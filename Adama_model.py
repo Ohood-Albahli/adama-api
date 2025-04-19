@@ -8,9 +8,10 @@ from tensorflow.keras import layers, models
 from tensorflow.keras.applications import DenseNet121
 
 
-data_dir = r"C:\Users\ohood\Downloads\Adama-all-main\Adama-all-main\src\model\Eczema and  Psoriasis Merged\test"
-csv_path = os.path.join(data_dir, "_classes.csv")
-
+# data_dir = r"C:\Users\ohood\Downloads\Adama-all-main\Adama-all-main\src\model\Eczema and  Psoriasis Merged\test"
+# csv_path = os.path.join(data_dir, "_classes.csv")
+data_dir = None
+csv_path = None
 
 def load_and_preprocess_image(path, label):
     image = tf.io.read_file(path)
