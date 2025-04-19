@@ -5,10 +5,11 @@ from PIL import Image
 import numpy as np
 import tensorflow as tf
 from Test_model import AdamaTester
-from Adama_model import csv_path, data_dir
+# from Adama_model import csv_path, data_dir
 
 # Load the model once
-tester = AdamaTester(csv_path, data_dir)
+# tester = AdamaTester(csv_path, data_dir)
+tester = AdamaTester( )
 
 # Class names must match what your model was trained on
 CLASS_NAMES = ["Psoriasis", "Eczema"]
